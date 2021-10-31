@@ -1,0 +1,11 @@
+n=int(input("Enter the number of elements into the list: "))
+print("Enter the elements for list: ")
+a=list()
+for i in range(0,n):
+    item=input()
+    a.append(item)
+x=input("Enther a element you want to search: ")
+if a.count(x)>0:
+    print("True")
+else:
+    print("False")
